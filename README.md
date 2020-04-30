@@ -29,8 +29,8 @@ Build your form using [Bootscrap 4](https://getbootstrap.com/) with validation a
 
 #### **NOTE: Please use [atomic commits](https://seesparkbox.com/foundry/atomic_commits_with_git)**
 
-### 4. Add extra Bin ID fields
-Use JavaScript to dynamically add extra Bin ID fields via a button.
+### 4. Dynamically add and remove Bin ID fields
+Use JavaScript to dynamically add and remove Bin ID fields via a button.
 
 ### 5. Create a Pull Request
 Once finished, add/commit your work and push your branch to Github, create a Pull Request and assign me ([https://github.com/domingobishop](domingobishop)) as the Reviewer.
