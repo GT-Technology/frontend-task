@@ -1,6 +1,6 @@
 # Frontend development task
 
-Build the form below using [Bootscrap 4](https://getbootstrap.com/) and add validation with a JavaScript framework (React, Vue.js or Alpine.js). 
+Build the form below using [Bootscrap 4](https://getbootstrap.com/) and add validation with a JavaScript framework (React, VueJS or Alpine.js). 
 
 ## Guidelines and standards
 Please ensure to follow W3C standards:
@@ -23,8 +23,10 @@ git checkout feature/firstname-lastname
 
 ### 3. Build your form
 #### Development setup
-Use [Bootscrap 4](https://getbootstrap.com/) and a JavaScrip framework (React, Vue.js or Alpine.js). Please install the chosen framework via npm.
-### Form
+Use [Bootscrap 4](https://getbootstrap.com/) and a JavaScrip framework (React, VueJS or Alpine.js). Please install the chosen framework via npm.
+* If React -> Mus use React Hooks Components
+* If VueJS -> Must show an understanding of Vue v3 and use Vue Components
+#### Form build
 Build your form using with validation and error messages. Ensure the form is responsive, mobile first approach. Add validation to the following fields:
 * Total number of bins -> required and as integer to the whole number
 * Estimated load weight -> required and as integer to second decimal place
