@@ -1,6 +1,6 @@
 # Frontend development task
 
-Build the form illustrated below using [Bootstcrap 4](https://getbootstrap.com/) and add validation with a JavaScript framework (React, VueJS or Alpine.js). Please follow all the instructions.
+Build the form illustrated below using [Bootstcrap 4](https://getbootstrap.com/) and add validation with a JavaScript framework ([React](https://reactjs.org/), [Vue.js](https://vuejs.org/) or [Alpine.js](https://github.com/alpinejs/alpine)). Please follow all the instructions.
 
 ## Guidelines and standards
 Please ensure to follow W3C standards:
