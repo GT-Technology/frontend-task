@@ -1,6 +1,6 @@
 # Frontend development task
 
-Build the form illustrated below using [Bootscrap 4](https://getbootstrap.com/) and add validation with a JavaScript framework (React, VueJS or Alpine.js). Please follow all the instructions.
+Build the form illustrated below using [Bootstcrap 4](https://getbootstrap.com/) and add validation with a JavaScript framework (React, VueJS or Alpine.js). Please follow all the instructions.
 
 ## Guidelines and standards
 Please ensure to follow W3C standards:
@@ -23,12 +23,12 @@ git checkout feature/firstname-lastname
 
 ### 3. Build your form
 #### Development setup
-Use [Bootscrap 4](https://getbootstrap.com/), Cypress CI for end-to-end testing and a JavaScrip framework (React, VueJS or Alpine.js) for validation. Please install the chosen frameworks via [npm](https://www.npmjs.com/).
+Use [Bootstcrap 4](https://getbootstrap.com/), Cypress CI for end-to-end testing and a JavaScrip framework (React, VueJS or Alpine.js) for validation. Please install the chosen frameworks via [npm](https://www.npmjs.com/).
 * If React -> Must use React Hooks Components
 * If VueJS -> Must show an understanding of Vue v3 and use Vue Components
 * Install and set up Cypress CI
 #### Form build
-Build your form using with validation and error messages. Ensure the form is responsive, mobile first approach. Add validation to the following fields:
+Build your form with validation and error messages. Ensure the form is responsive, mobile first approach. Add validation to the following fields:
 * Total number of bins -> required and as integer to the whole number
 * Estimated load weight -> required and as integer to second decimal place
 * Vehicle registration -> required with a max of 12 characters 
