@@ -26,6 +26,7 @@ Build your form using [Bootscrap 4](https://getbootstrap.com/) with validation a
 * Total number of bins -> required and as integer to the whole number
 * Estimated load weight -> required and as integer to second decimal place
 * Vehicle registration -> required with a max of 12 characters 
+**NOTE: Please use [atomic commits](https://seesparkbox.com/foundry/atomic_commits_with_git)**
 
 ### 4. Add extra Bin ID fields
 Use JavaScript to dynamically add extra Bin ID fields via a button.
