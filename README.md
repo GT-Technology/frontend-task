@@ -23,7 +23,7 @@ git checkout feature/firstname-lastname
 
 ### 3. Build your form
 #### Development setup
-Use [Bootscrap 4](https://getbootstrap.com/), Cypress CI for end-to-end testing and a JavaScrip framework (React, VueJS or Alpine.js) for validation. Please install the chosen frameworks via npm.
+Use [Bootscrap 4](https://getbootstrap.com/), Cypress CI for end-to-end testing and a JavaScrip framework (React, VueJS or Alpine.js) for validation. Please install the chosen frameworks via [npm](https://www.npmjs.com/).
 * If React -> Must use React Hooks Components
 * If VueJS -> Must show an understanding of Vue v3 and use Vue Components
 * Install and set up Cypress CI
