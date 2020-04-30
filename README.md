@@ -22,7 +22,10 @@ git checkout feature/firstname-lastname
 ```
 
 ### 3. Build your form
-Build your form using [Bootscrap 4](https://getbootstrap.com/) with validation (React, Vue.js or Alpine.js) and error messages. Ensure the form is responsive, mobile first approach. Add validation to the following fields:
+#### Development setup
+Use [Bootscrap 4](https://getbootstrap.com/) and a JavaScrip framework (React, Vue.js or Alpine.js). Please install the chosen framework via npm.
+### Form
+Build your form using with validation and error messages. Ensure the form is responsive, mobile first approach. Add validation to the following fields:
 * Total number of bins -> required and as integer to the whole number
 * Estimated load weight -> required and as integer to second decimal place
 * Vehicle registration -> required with a max of 12 characters 
