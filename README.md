@@ -1,6 +1,6 @@
 # Frontend development task
 
-Build the form below using [Bootscrap 4](https://getbootstrap.com/) and add validation with a JavaScript framework (React, VueJS or Alpine.js). 
+Build the form illustrated below using [Bootscrap 4](https://getbootstrap.com/) and add validation with a JavaScript framework (React, VueJS or Alpine.js). Please follow all the instructions.
 
 ## Guidelines and standards
 Please ensure to follow W3C standards:
@@ -23,9 +23,10 @@ git checkout feature/firstname-lastname
 
 ### 3. Build your form
 #### Development setup
-Use [Bootscrap 4](https://getbootstrap.com/) and a JavaScrip framework (React, VueJS or Alpine.js). Please install the chosen framework via npm.
-* If React -> Mus use React Hooks Components
+Use [Bootscrap 4](https://getbootstrap.com/), Cypress CI for end-to-end testing and a JavaScrip framework (React, VueJS or Alpine.js) for validation. Please install the chosen frameworks via npm.
+* If React -> Must use React Hooks Components
 * If VueJS -> Must show an understanding of Vue v3 and use Vue Components
+* Install and set up Cypress CI
 #### Form build
 Build your form using with validation and error messages. Ensure the form is responsive, mobile first approach. Add validation to the following fields:
 * Total number of bins -> required and as integer to the whole number
@@ -34,8 +35,8 @@ Build your form using with validation and error messages. Ensure the form is res
 
 #### **NOTE: Please use [atomic commits](https://seesparkbox.com/foundry/atomic_commits_with_git)**
 
-### 4. Dynamically add and remove Bin ID fields
-Use JavaScript to dynamically add and remove Bin ID fields via a button.
+### 4. Dynamically add and remove Bin ID fields and test
+Use JavaScript to dynamically add and remove Bin ID fields via a button. Write one end-to-end test for adding/removing fields.
 
 ### 5. Create a Pull Request
 Once finished, add/commit your work and push your branch to Github, create a Pull Request and assign me ([https://github.com/domingobishop](domingobishop)) as the Reviewer.
