@@ -22,7 +22,7 @@ git checkout feature/firstname-lastname
 ```
 
 ### 3. Build your form
-Build your form using [Bootscrap 4](https://getbootstrap.com/) with validation and error messages. Add validation to the following fields:
+Build your form using [Bootscrap 4](https://getbootstrap.com/) with validation and error messages. Ensure the form is responsive, mobile first approach. Add validation to the following fields:
 * Total number of bins -> required and as integer to the whole number
 * Estimated load weight -> required and as integer to second decimal place
 * Vehicle registration -> required with a max of 12 characters 
