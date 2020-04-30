@@ -31,4 +31,4 @@ Build your form using [Bootscrap 4](https://getbootstrap.com/) with validation a
 Use JavaScript to dynamically add extra Bin ID fields via a button.
 
 ### 5. Create a Pull Request
-Once finished, push your branch to Github, create a Pull Request and assign me (domingobishop) as the Reviewer.
+Once finished, push your branch to Github, create a Pull Request and assign me ([https://github.com/domingobishop](domingobishop)) as the Reviewer.
