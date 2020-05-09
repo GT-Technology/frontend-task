@@ -3,15 +3,16 @@
 Build the form illustrated below using [Bootstcrap 4](https://getbootstrap.com/) and add validation with a JavaScript framework ([React](https://reactjs.org/), [Vue.js](https://vuejs.org/) or [Alpine.js](https://github.com/alpinejs/alpine)). Please follow all the instructions.
 
 ## Guidelines and standards
-Please ensure to follow W3C standards:
-* [W3C](https://www.w3.org/TR/WCAG21/) guidelines (you can validate your code here http://validator.w3.org/)
+Requirements:
+* Please follow [W3C](https://www.w3.org/TR/WCAG21/) guidelines (you can validate your code here http://validator.w3.org/)
 * Make best use of HTML5 and ARIA semantics to ensure the form is accessible (https://webaim.org/techniques/forms/)
+* Use progressive enhancement (https://www.gov.uk/service-manual/technology/using-progressive-enhancement)
 
 ![Form](form.jpg)
 
-### 1. Clone this repository
+### 1. Fork the repository into your Github account and clone the new repository
 ```bash
-git clone https://github.com/GT-Technology/frontend-task.git
+git clone https://github.com/.../frontend-task.git
 ```
 
 ### 2. Create a feature branch
@@ -23,7 +24,7 @@ git checkout feature/firstname-lastname
 
 ### 3. Build your form
 #### Development setup
-Use [Bootstcrap 4](https://getbootstrap.com/), Cypress CI for end-to-end testing and a JavaScrip framework (React, VueJS or Alpine.js) for validation. Please install the chosen frameworks via [npm](https://www.npmjs.com/).
+Use [Bootstcrap 4](https://getbootstrap.com/), Cypress CI for end-to-end testing and a JavaScrip framework (JQuery, React, VueJS or Alpine.js) for validation. Please install the chosen frameworks via [npm](https://www.npmjs.com/).
 * If React -> Must use React Hooks Components
 * If VueJS -> Must show an understanding of Vue v3 and use Vue Components
 * Install and set up Cypress CI
