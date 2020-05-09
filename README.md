@@ -40,4 +40,4 @@ Build your form with validation and error messages. Ensure the form is responsiv
 Use JavaScript to dynamically add and remove Bin ID fields via a button. Write one end-to-end test for adding/removing fields.
 
 ### 5. Create a Pull Request
-Once finished, add/commit your work and push your branch to Github, create a Pull Request and assign me ([https://github.com/domingobishop](domingobishop)) as the Reviewer.
+Once finished, add/commit your work and push your branch to Github, create a Pull Request and assign me ([domingobishop](https://github.com/domingobishop)) as the Reviewer.
