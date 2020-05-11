@@ -1,0 +1,37 @@
+body { margin: 0; padding: 0;}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 800px;
+    }
+}
+
+h2 { color: #2697a7;}
+
+.bg-spacer {
+	background-color: #ddf2f3;
+	padding: 30px;
+	margin-bottom: 16px;
+}
+
+.form-control[readonly] {
+    background-color: #cdebed;
+	border: 1px solid #cdebed;
+}
+
+form .error {
+	color: #ff0000;
+}
+
+.buttons button {
+	background: #cdebed;
+	border: 0;
+	border-radius: .25rem;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+#datepicker, .timepicker {
+	background-color: #ddf2f3;
+	border: 1px solid #ddf2f3;
+}
