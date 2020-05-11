@@ -32,7 +32,7 @@ $(function() {
 	
 	$(".remove").click(function(e){
 		e.preventDefault();
-		$(".element").children().last().remove();
+		$(".element").children().not(':first').last().remove();
 	});
 	
 	$("#datepicker" ).datepicker();
@@ -48,7 +48,6 @@ $(function() {
 		dropdown: true,
 		scrollbar: true
 	});
-	
 });
 
 
