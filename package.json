@@ -1,0 +1,39 @@
+{
+  "name": "frontend-task",
+  "version": "1.0.0",
+  "description": "Build the form illustrated below using [Bootstcrap 4](https://getbootstrap.com/) and add validation with a JavaScript framework ([JQuery](https://jqueryvalidation.org/validate/), [React](https://reactjs.org/), [Vue.js](https://vuejs.org/) or [Alpine.js](https://github.com/alpinejs/alpine)). Please follow all the instructions.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronsandova/frontend-task.git"
+  },
+  "keywords": [],
+  "author": "Ronald Sandoval",
+  "license": "license",
+  "bugs": {
+    "url": "https://github.com/ronsandova/frontend-task/issues"
+  },
+  "homepage": "https://github.com/ronsandova/frontend-task#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "classnames": "^2.2.6",
+    "react": "^16.4.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-scripts": "2.1.2",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
