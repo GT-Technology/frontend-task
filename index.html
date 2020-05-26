@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.min.css">
+	<link rel="stylesheet" href="css/custom.css">
+
+    <title>Frontend task</title>
+  </head>
+  <body>
+  
+    <div class="container">
+    
+    	<div class="row mt-3 mb-3">
+        	<div class="col-12">
+            	<h1>Send fruit to winery</h1>
+                <h2>Load details</h2>
+            </div>
+        </div>
+            
+    	<div class="row mb-3">
+        	<div class="col-12">
+            	
+                <form action="#" name="registration" id="register">
+                  <div class="bg-spacer">	
+                  
+                      <div class="form-group">
+                        <label>Requested parcel</label>
+                        <input class="form-control" type="text" placeholder="765: kew pinot Gris (Grigio)" readonly>
+                      </div>
+                        
+                      <div class="form-group">
+                        <label for="bins">Total number of bins</label>
+                        <input type="text" class="form-control" name="bins" id="bins">
+                      </div>
+                      
+                      <div class="form-group mb-0">
+                        <label>Bin IDs</label>
+                        <div class="buttons float-right">
+                            <button class="add">add</button>
+                            <button class="remove">remove</button>
+                        </div>
+                      </div>
+                      
+                      <div class="form-row element">
+                        <div class="form-group col-md-4">
+                          <input type="text" class="form-control">
+                        </div>
+                      </div> 
+                      
+                      <div class="form-group">
+                        <label for="weight">Estimated load weight (tonnes)</label>
+                        <input type="text" class="form-control" name="weight" id="weight">
+                      </div>
+                      
+                      <div class="form-group">
+                        <label>Harvest method</label>
+                        <select class="form-control">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
+                          <option>5</option>
+                        </select>
+                      </div>
+                      
+                      <div class="form-group mb-0">
+                        <label>Additives notes</label>
+                        <textarea class="form-control" rows="3"></textarea>
+                      </div>
+                  
+                  </div>
+                  
+                  <div class="form-group">
+                    <label>Vehicle driver name</label>
+                    <input type="text" class="form-control">
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="registration">Vehicle registration</label>
+                    <input type="text" class="form-control" name="registration" id="registration">
+                  </div>
+                  
+                  <div class="form-group">
+                    <label>Dispatch date</label>
+                    <input type="text" class="form-control" id="datepicker">
+                  </div>
+                  
+                  <div class="form-group">
+                    <label>Dispatch time</label>
+                    <input type="text" class="form-control timepicker">
+                  </div>
+                  
+                  <div class="form-group">
+                  	<button type="button" id="reset" class="btn btn-outline-secondary">Cancel</button>		
+                    <button type="submit" class="btn btn-primary">Confirm and submit</button>
+                  </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js"></script> 
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/custom.js"></script>
+    
+  </body>
+</html>
